@@ -87,7 +87,7 @@
         <dependency>
             <groupId>org.jenkins-ci.plugins.workflow</groupId>
             <artifactId>workflow-durable-task-step</artifactId>
-            <version>2.13</version>
+            <version>1313.vcb_970b_d2a_fb_3</version>
             <scope>test</scope>
         </dependency>
         <dependency>
