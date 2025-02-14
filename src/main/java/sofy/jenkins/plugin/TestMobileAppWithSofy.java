@@ -1,6 +1,5 @@
 package sofy.jenkins.plugin;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import javax.ws.rs.POST;
 import hudson.Util;
 import org.acegisecurity.AccessDeniedException;
@@ -23,7 +22,6 @@ import org.apache.http.entity.ContentType;
 import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntityBuilder;
 import org.apache.http.entity.mime.content.FileBody;
-import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.jenkinsci.Symbol;
@@ -38,7 +36,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
-import java.util.Objects;
 import java.util.UUID;
 
 
